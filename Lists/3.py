@@ -1,0 +1,33 @@
+print("Write names of wild animals")
+
+y = []
+
+z = y.append(input("Enter your first sentence:  "))
+print(y)
+a = y.append(input("Enter your second sentence:  "))
+print(y)
+b = y.append(input("Enter your third sentence:  "))
+print(y)
+c = y.append(input("Enter your fourth sentence:  "))
+print(y)
+d = y.append(input("Enter your fifth sentence:  "))
+y.sort()
+y.pop()
+y.remove(input("Remove any word in our list:  "))
+print(y)
+print("Write names of domestic animals")
+e = []
+f = e.append(input("Enter your first sentence:  "))
+print(e)
+g = e.append(input("Enter your second sentence:  "))
+print(e)
+h = e.append(input("Enter your third sentence:  "))
+print(e)
+i = e.append(input("Enter your fourth sentence:  "))
+print(e)
+j = e.append(input("Enter your fifth sentence:  "))
+e.sort()
+e.pop()
+e.remove(input("Remove any word in our list:  "))
+
+print(e)
